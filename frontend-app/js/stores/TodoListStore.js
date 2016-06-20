@@ -8,12 +8,12 @@ let todoListItems = [];
 
 class TodoListStore extends EventEmitter {
 
-  // Register callback on change event
+  // Register callback on change event.
   addChangeListener(callback) {
     this.on(CHANGE_EVENT, callback);
   }
 
-  // Remove change event listener
+  // Remove change event listener.
   removeChangeListener(callback) {
     this.removeListener(CHANGE_EVENT, callback);
   }

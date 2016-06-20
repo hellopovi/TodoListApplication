@@ -29,7 +29,7 @@ class TodoApplication extends React.Component {
     TodoListStore.removeChangeListener(this.onChange);
   }
 
-  // Event handler for 'change' events coming from the TodoStore
+  // Event handler for 'change' events coming from the TodoStore.
   onChange() {
     this.setState({
       todoListItems: this.getTodoListItems(),
@@ -41,6 +41,7 @@ class TodoApplication extends React.Component {
     return TodoListStore.getTodoListItems() || [];
   }
 
+  // Add new todo list item.
   addTodoListItem(itemData) {
     addNewTodoListItem({
       itemData,
