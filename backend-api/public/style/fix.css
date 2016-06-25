@@ -1,0 +1,10 @@
+.view {
+  min-height: 44px;
+}
+
+.view label {
+  display: block;
+  width: 93% !important;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
