@@ -1,0 +1,11 @@
+language: node_js
+
+node_js:
+  - 0.12
+
+before_install: cd frontend-app
+
+before_script:
+  - npm install
+  - npm run test
+  - npm run build
