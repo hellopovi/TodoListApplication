@@ -36,9 +36,9 @@ class TodoApplication extends React.Component {
     });
   }
 
-  // Retrieve the current TODO items from the TodoLisStore.
+  // Retrieve the current TODO items from the TodoListStore.
   getTodoListItems() {
-    return TodoListStore.getTodoListItems() || [];
+    return TodoListStore.getTodoListItems();
   }
 
   // Add new todo list item.
