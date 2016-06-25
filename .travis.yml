@@ -9,3 +9,6 @@ before_script:
   - npm install
   - npm run test
   - npm run dist
+
+after_success:
+  - coveralls
