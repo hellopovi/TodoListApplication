@@ -11,4 +11,4 @@ before_script:
   - npm run dist
 
 after_success:
-  - coveralls
+  - bash <(curl -s https://codecov.io/bash)
