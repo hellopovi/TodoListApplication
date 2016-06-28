@@ -1,5 +1,7 @@
 # TodoListApplication 
 [![Build Status](https://travis-ci.org/hellopovi/TodoListApplication.svg?branch=master)](https://travis-ci.org/hellopovi/TodoListApplication)
+[![codecov](https://codecov.io/gh/hellopovi/TodoListApplication/branch/master/graph/badge.svg)](https://codecov.io/gh/hellopovi/TodoListApplication)
+
 
 
 Deployed on Heroku + MongoLabs.
