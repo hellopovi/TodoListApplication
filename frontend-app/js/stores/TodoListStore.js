@@ -35,10 +35,9 @@ class TodoListStore extends EventEmitter {
 
   // Update the todo list item.
   updateItem(updatedItem) {
-    todoListItems = todoListItems.map(item => {
+    todoListItems.map((item, index) => {
       if (item._id === updatedItem._id) {
-        item.itemData = updatedItem.itemData;
-        item.completed = updatedItem.completed;
+        todoListItems[index] = updatedItem;
       }
       return item;
     });

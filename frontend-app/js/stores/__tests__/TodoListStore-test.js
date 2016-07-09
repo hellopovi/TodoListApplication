@@ -76,7 +76,7 @@ describe('TodoListStore', () => {
     expect(allItems[0]).toEqual(item);
   });
 
-  it('edits item in the list', () => {
+  it('updates item in the list', () => {
     callback(actionTodoUpdate);
     let allItems = TodoListStore.getTodoListItems();
     expect(allItems[0]).toEqual(updatedItem);
