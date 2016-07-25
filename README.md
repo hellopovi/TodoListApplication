@@ -4,9 +4,6 @@
 
 
 
-Deployed on Heroku + MongoLabs.
-Example of running application: https://hello-todolist.herokuapp.com/
-
 Backend API serves frontend from public folder on main path.
 To run it on http://localhost:3001/. Running mongo db is required.
 * cd backend-api/
