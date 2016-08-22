@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --verbose",
-    "dev": "./node_modules/.bin/webpack-dev-server --devtool eval --progress --colors --hot --content-base build --port 3000",
+    "dev": "./node_modules/.bin/webpack-dev-server --devtool eval --progress --colors --hot --content-base build --port 4000",
     "dist": "NODE_ENV=production webpack -p --config webpack.dist.config.js",
     "lint": "eslint js/**/**.**"
   },
@@ -16,7 +16,9 @@
     "classnames": "^2.2.5",
     "flux": "^2.1.1",
     "react": "^15.1.0",
-    "react-dom": "^15.1.0"
+    "react-dom": "^15.1.0",
+    "react-redux": "^4.4.5",
+    "redux": "^3.5.2"
   },
   "devDependencies": {
     "babel-core": "^6.9.1",
@@ -36,7 +38,7 @@
     "webpack-dev-server": "^1.14.1"
   },
   "jest": {
-  "coverageDirectory": "./coverage/",
-  "collectCoverage": true
+    "coverageDirectory": "./coverage/",
+    "collectCoverage": true
   }
 }

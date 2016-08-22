@@ -2,7 +2,6 @@ import React from 'react';
 import classNames from 'classnames';
 
 import TodoListItemInput from './TodoListItemInput';
-import { updateTodoListItem, removeTodoListItem, toggleTodoListItemComplete } from '../actions/TodoApplicationActions';
 
 class TodoListItem extends React.Component {
 
